@@ -1,0 +1,92 @@
+@media screen and (max-width: 1020px) {
+    /* CABEÇALHO (ESCONDER BOTAO E NAV)*/
+    .menu-desktop, .amaral-contato {
+        display: none;
+    }
+
+    /*CLASSES GERAIS*/
+    .flex {
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    /*TOPO DO SITE*/
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .topo-do-site p {
+        font-size: 17px;
+        text-align: center;
+    }
+    
+    /*ESPECIALIDADES*/
+    section.especialidades {
+        padding:40px 8%;
+    }
+    
+    /*SOBRE*/
+    section.sobre {
+        padding: 80px 8%;
+    
+    }
+
+    .sobre .txt-sobre h2 {
+        text-align: center;
+    }
+    
+    .sobre .txt-sobre p {
+        text-align: center;
+    }
+
+    .amaral-social {
+        text-align: center;
+        margin-top:30px;
+    }
+
+    .img-sobre img {
+        width: 100%;
+
+    }
+    
+    /*PORTFOLIO*/
+    section.portfolio {
+        padding: 80px 8%;
+        box-shadow: 0 0 40px 10px #ffffff15;
+    }
+
+    section.portfolio .flex {
+        gap:60px;
+    }
+
+    /*RODAPE*/
+
+    footer .flex {
+        flex-direction: column;
+    }
+    
+    footer .line-footer img {
+        margin-left: 125px;
+    }
+
+    footer .line-footer p {
+        text-align: center;
+    }
+    
+}
