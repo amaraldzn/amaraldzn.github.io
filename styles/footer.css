@@ -1,0 +1,30 @@
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #0000009d;
+}
+
+footer .logo-footer img{
+    margin-left: -25px;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .line-footer {
+    padding:20px 0;
+}
+
+.borda {
+    border-top: 2px solid #b300ff;
+}
+
+footer .line-footer p i {
+    color: #b300ff;
+    font-size: 22px;
+
+}
+
+footer .line-footer p a {
+    color: #fff;
+}
