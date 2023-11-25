@@ -81,8 +81,8 @@
         flex-direction: column;
     }
     
-    footer .line-footer img {
-        margin-left: 125px;
+    footer .line-footer {
+        text-align: center;
     }
 
     footer .line-footer p {

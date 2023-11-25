@@ -31,3 +31,37 @@ section.especialidades .flex {
     font-size: 28px;
     margin:15px 0;
 }
+
+section.especialidades {
+    padding:40px 4%;
+}
+
+section.especialidades .flex {
+    gap:60px;
+}
+
+
+
+.especialidades .especialidades-box {
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover {
+    transform:scale(1.05);
+    box-shadow: 0 0 8px #ffffff6e;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 55px;
+    color:#b300ff;
+
+}
+
+.especialidades .especialidades-box a {
+    color: #fff; /* Cor do texto branco */
+    text-decoration: none; /* Remova a decoração de sublinhado */
+}
