@@ -1,4 +1,10 @@
 @media screen and (max-width: 1020px) {
+
+    .amaral-abrir-menu{
+
+        display: block;
+    
+    }
     /* CABEÇALHO (ESCONDER BOTAO E NAV)*/
     .menu-desktop, .amaral-contato {
         display: none;
