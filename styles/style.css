@@ -43,3 +43,7 @@ h2.titulo {
 h2.titulo span {
     color:#b300ff;
 }
+
+.amaral-abrir-menu{
+    display: none;
+}

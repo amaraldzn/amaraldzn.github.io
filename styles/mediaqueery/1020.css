@@ -1,4 +1,9 @@
 @media screen and (max-width: 1020px) {
+
+    /* ESCONDER MENU HAMBURGUER */
+    .amaral-abrir-menu{
+        display: block;
+    }
     /* CABEÇALHO (ESCONDER BOTAO E NAV)*/
     .menu-desktop, .amaral-contato {
         display: none;
