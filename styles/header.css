@@ -33,6 +33,12 @@ header nav.menu-desktop ul li {
 
 /*ESTILO DO MENU MOBILE*/
 
+.amaral-abrir-menu{
+
+    display: none;
+
+}
+
 .overlay-menu {
     background-color: #000000a9;
     width: 100%;
